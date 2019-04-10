@@ -17,7 +17,7 @@ int main()
         {
             if ((get_object_center_x(0,0)<159) && (analog(0)>2600))
             {
-                printf("zhua\n");
+   //             printf("zhua\n");
                 wait_for_milliseconds(1000);
                 set_servo_position(0,1400);
                 set_servo_position(1,1163);
